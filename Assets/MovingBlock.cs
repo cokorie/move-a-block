@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovingBlock : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 3f;
+    [SerializeField] float moveSpeed = 12f;
 
     float startingYPosition;
     public static int Score;
