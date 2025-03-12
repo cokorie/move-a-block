@@ -22,7 +22,7 @@ public class MovingBlock : MonoBehaviour
         if(transform.position.x <= -5)
         {
             transform.position += Vector3.right * 30f;
-            float newY = startingYPosition + UnityEngine.Random.Range(-1f, 1f);
+            float newY = startingYPosition + UnityEngine.Random.Range(-2f, 1f);
             transform.position = new Vector3(transform.position.x, newY, 0f);
             Score++;
             if (Score > HighScore)
